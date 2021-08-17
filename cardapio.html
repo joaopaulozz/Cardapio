@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title> Joao Paulo Lanches </title>
+		<meta charset="UTF-8">
+		</head>
+		<body>
+			<center>
+				<h2 style="color: red;"> CARDAPIO </h2>
+				<br>
+				<br>
+
+				<form name ="form" method="post" action="comprovante.php">
+				<table border="1">
+					<tr>
+					<th>Lanches</th>
+					<th>Quantidade</th>
+					<th>Valor</th>
+					<th>Opicional</th>
+					</tr>
+					<tr>
+					<td><strong><input type="checkbox" name="opcao1" checked="">X-Burguer</strong></td>
+					<td><strong><input type="text" name="a"></strong></td>
+					<td><strong>$ 8,30</strong></td>
+					<td><select name="Opicional1">
+						<option value="sem">Sem opicinal</option>
+						<option value="bacon">Com bacon</option>
+						<option value="catupity">Com catupiry</option>
+						</select></td>
+					</tr>
+					<tr>
+					<td><strong><input type="checkbox" name="opcao2">Misto quente</strong></td>
+					<td><strong><input type="text" name="b"></strong></td>
+					<td><strong>$ 7,00</strong></td>
+					<td><select name="Opicional2">
+						<option value="sem">Sem opicinal</option>
+						<option value="bacon">Com bacon</option>
+						<option value="catupity">Com catupiry</option>
+						</select></td>
+					</tr>
+					<tr>
+					<td><strong><input type="checkbox" name="opcao3">X-Salada</strong></td>
+					<td><strong><input type="text" name="c"></strong></td>
+					<td><strong>$ 8,90</strong></td>
+					<td><select name="Opicional3">
+						<option value="sem">Sem opicinal</option>
+						<option value="bacon">Com bacon</option>
+						<option value="catupity">Com catupiry</option>
+						</select></td>
+					</tr>
+					</table>
+					<br>
+
+					<table border="1">
+					<tr>
+					<th>Bebidas</th>
+					<th>Quantidade</th>
+					<th>Valor</th>
+					</tr>
+					<tr>
+					<td><strong><input type="checkbox" name="opcao1">Coca Cola</strong></td>
+					<td><strong><input type="text" name="d"></strong></td>
+					<td><strong>$ 6,00</strong></td>
+					</tr>
+					<tr>
+					<td><strong><input type="checkbox" name="opcao2">Fanta</strong></td>
+					<td><strong><input type="text" name="e"></strong></td>
+					<td><strong>$ 5,00</strong></td>
+					</tr>
+					<tr>
+					<td><strong><input type="checkbox" name="opcao3">Conquista</strong></td>
+					<td><strong><input type="text" name="f"></strong></td>
+					<td><strong>$ 5,50</strong></td>
+					</tr>
+					</table>
+					<br>
+
+					<strong>Observações:</strong>
+					<textarea name="obs"></textarea>
+					<br>
+					<br>
+
+					<td><input type="submit" name="botao" value="Calcular"></td>
+
+			 	</form>
+			</center>
+		</body>
+</html>
+			
